@@ -1,0 +1,1986 @@
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Concert+One&family=Dancing+Script&family=DynaPuff:wght@400;500&family=Lexend:wght@500&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@1,100&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Concert+One&family=Dancing+Script&family=DynaPuff:wght@500&family=Lexend:wght@500&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Roboto:ital,wght@1,100&family=Varela+Round&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bangers&family=Caveat&family=Combo&family=Concert+One&family=Dancing+Script&family=DynaPuff:wght@400;500&family=Lexend:wght@500&family=Lobster&family=Pacifico&family=Permanent+Marker&family=Poppins:wght@100&family=Qwitcher+Grypen&family=Roboto:ital,wght@1,100&family=Silkscreen&family=Varela+Round&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+section,
+footer {
+  overflow: hidden;
+  white-space: wrap;
+  word-break: break-word;
+}
+body {
+  background-color: #dfe3ee;
+}
+/* This is navigation bar section  */
+
+nav {
+  background-color: #1a191a;
+  height: 90px;
+  width: 100%;
+  box-shadow: 0px 5px 25px black;
+  position: fixed;
+  z-index: 2;
+}
+nav h1 {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  font-size: 40px;
+  font-family: "Caveat", cursive;
+  transition: 0.6s ease;
+}
+nav h1:hover {
+  font-size: 43px;
+}
+nav ul {
+  float: right;
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 40px;
+  font-size: 25px;
+  position: relative;
+  font-weight: 500;
+  top: -10px;
+  right: 20px;
+}
+nav ul li a:hover {
+  color: #0f4c81;
+  font-size: 26px;
+  transition: 0.5s ease;
+}
+nav ul li:hover {
+  border-bottom: 2px solid #0f4c81;
+  transition: 0.5s ease;
+}
+span {
+  font-family: "Dancing Script", cursive;
+  color: #0f4c81;
+}
+a {
+  color: white;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  -webkit-tap-highlight-color: transparent;
+}
+
+/* This is container section  */
+.container {
+  background-color: #dfe3ee;
+  height: 100vh;
+  width: 100%;
+}
+.container .card {
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  border-radius: 20px;
+  height: 400px;
+  width: 300px;
+  position: absolute;
+  top: 150px;
+  left: 60%;
+}
+.card img {
+  height: 380px;
+  border-radius: 20px;
+  position: relative;
+  top: 19px;
+  left: 14px;
+}
+.container h1 {
+  position: relative;
+  color: #0f4c81;
+  font-family: "Pacifico", cursive;
+  top: 250px;
+  left: -210px;
+  text-align: center;
+  font-size: 35px;
+}
+.container h2 {
+  position: relative;
+  color: black;
+  top: 250px;
+  right: 215px;
+  font-size: 28px;
+  font-family: "Lexend", sans-serif;
+  text-align: center;
+}
+.btn-976 {
+  display: flex;
+  position: relative;
+  top: 270px;
+  left: 310px;
+  width: 300px;
+  margin: 0px;
+}
+.btn-976 button {
+  width: 130px;
+  height: 45px;
+  margin: 5px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  border: none;
+  background-color: #0f4c81;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.btn-976 button:hover {
+  width: 120px;
+  height: 43px;
+  background-color: #1a191a;
+  transition: 0.5s ease;
+}
+
+/* This section is for container2  */
+.container2 {
+  height: 400px;
+  width: 100%;
+  background-color: #0f4c81;
+}
+.item3 h1 {
+  text-align: center;
+  position: relative;
+  top: 50px;
+  font-size: 50px;
+  font-family: "Lexend", sans-serif;
+}
+.item3 p {
+  width: 1090px;
+  position: relative;
+  top: 60px;
+  padding: 50px;
+  font-size: 25px;
+  font-weight: 400;
+  font-family: "DynaPuff", cursive;
+}
+.item3 img {
+  height: 230px;
+  position: relative;
+  left: 75%;
+  bottom: 200px;
+  cursor: pointer;
+}
+.item3 img:hover {
+  height: 240px;
+  transition: 0.6s ease;
+}
+
+/* This section is for container3  */
+.container3 {
+  background: linear-gradient(360deg, #0f4c81, #dfe3ee);
+  height: 700px;
+  width: 100%;
+  border-radius: 0 0 30px 30px;
+}
+.cards {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 220px;
+  color: white;
+}
+.card1 {
+  height: 400px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+}
+.card1 img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.card1 p {
+  text-align: left;
+  padding: 10px;
+  font-size: 19.5px;
+  position: relative;
+  top: 45px;
+  font-weight: 400;
+  font-family: "Lexend", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  width: 95%;
+  left: 2.5%;
+}
+.card1 button {
+  background-color: #3b5998;
+  position: absolute;
+  top: 75%;
+  left: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 50px;
+  padding: 10px;
+  width: 170px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.card1 button:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: #3b5998;
+  height: 45px;
+  width: 165px;
+}
+.card2 {
+  height: 450px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  position: relative;
+  top: -50px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+}
+.card2 img {
+  position: relative;
+  top: 0px;
+  left: 15px;
+}
+.card3 {
+  height: 400px;
+  width: 250px;
+  background: rgba(255, 255, 255, 0.2);
+  margin: 5px;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+}
+.card3 img {
+  position: relative;
+  top: 20px;
+  left: 20px;
+}
+.card3 p {
+  text-align: left;
+  padding: 10px;
+  font-size: 20px;
+  position: relative;
+  top: 50px;
+  font-weight: 400;
+  font-family: "Lexend", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  width: 95%;
+  left: 2.5%;
+}
+.card3 button {
+  background-color: darkred;
+  position: absolute;
+  top: 75%;
+  left: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 50px;
+  color: white;
+  padding: 10px;
+  width: 170px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.card3 button:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  height: 45px;
+  width: 165px;
+}
+.card2 p {
+  text-align: center;
+  padding: 10px;
+  font-size: 18px;
+  position: absolute;
+  top: 25%;
+  left: 0px;
+  font-weight: 400;
+  font-family: "Lexend", sans-serif;
+  color: rgba(255, 255, 255, 0.6);
+  width: 95%;
+  left: 2.5%;
+}
+.card2 button {
+  background-color: #171515;
+  position: absolute;
+  top: 75%;
+  left: 40px;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 50px;
+  color: white;
+  padding: 10px;
+  width: 170px;
+  font-size: 17px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+.card2 button:hover {
+  background: rgba(255, 255, 255, 0.6);
+  color: black;
+  height: 45px;
+  width: 165px;
+}
+
+/* This section is for .container 4 */
+.container4 {
+  background-image: url("bggg.png");
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+  width: 100%;
+  border-radius: 20px 20px 20px 20px;
+}
+.container4 h1 {
+  color: #0f4c81;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 10px;
+  font-family: "Caveat", cursive;
+  font-size: 60px;
+}
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+legend {
+  font-size: 30px;
+  color: #0f4c81;
+  position: relative;
+  font-weight: bold;
+  font-family: "Lexend", sans-serif;
+}
+fieldset {
+  border-color: #0f4c81;
+  margin: 20px;
+  width: 500px;
+  border-radius: 20px;
+  background: linear-gradient(360deg, #0f4c81, transparent);
+}
+.info .personal-info h2 {
+  padding: 18px;
+  font-family: "Combo", cursive;
+  font-weight: 400;
+  color: #1a191a;
+}
+.info .Document-info fieldset {
+  height: 520px;
+}
+.info .Document-info h2 {
+  padding: 17px;
+  font-family: "Combo", cursive;
+  font-weight: 400;
+  color: #1a191a;
+}
+
+/* This is for container5 section  */
+.container5 {
+  height: 100vh;
+  width: 100%;
+  background-color: #dfe3ee;
+  border-radius: 20px 20px 0 0;
+  overflow: hidden;
+}
+.flex-display {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.container5 h1 {
+  color: #0f4c81;
+  font-weight: bold;
+  text-align: center;
+  margin: 40px 0 100px 0;
+  font-family: "Caveat", cursive;
+  font-size: 70px;
+}
+/* This is for HTML */
+.maindiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 500px;
+  margin: 30px;
+}
+.outer {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+.inner {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.inner #number {
+  color: #455;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+circle {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anime 2s linear forwards;
+}
+svg {
+  position: absolute;
+}
+@keyframes anime {
+  100% {
+    stroke-dashoffset: 146;
+  }
+}
+
+/* This is for CSS */
+.maindivCSS {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 500px;
+  margin: 30px;
+}
+.outerCSS {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+.innerCSS {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.innerCSS #numberCSS {
+  color: #455;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+.CSS {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: cssanime 2s linear forwards;
+}
+svg {
+  position: absolute;
+}
+@keyframes cssanime {
+  100% {
+    stroke-dashoffset: 200;
+  }
+}
+
+/* This is for javaScript */
+.maindivjs {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 500px;
+  margin: 30px;
+}
+.outerjs {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+.innerjs {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.innerjs #numberjs {
+  color: #455;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+.javaScript {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: jsanime 2s linear forwards;
+}
+svg {
+  position: absolute;
+}
+@keyframes jsanime {
+  100% {
+    stroke-dashoffset: 250;
+  }
+}
+
+/* This is for python */
+.maindivpy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  bottom: 100px;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  height: 400px;
+  width: 500px;
+  margin: 30px;
+}
+.outerpy {
+  height: 160px;
+  width: 160px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  padding: 20px;
+}
+.innerpy {
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+}
+.innerpy #numberpy {
+  color: #455;
+  text-align: center;
+  position: relative;
+  top: 40%;
+  font-size: 20px;
+  font-weight: 700;
+}
+.pythonpy {
+  fill: none;
+  stroke: url("#GradientColor");
+  stroke-width: 20px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: pyanime 2s linear forwards;
+}
+svg {
+  position: absolute;
+}
+@keyframes pyanime {
+  100% {
+    stroke-dashoffset: 350;
+  }
+}
+.maindiv span {
+  position: absolute;
+  top: 320px;
+  font-size: 40px;
+}
+.maindivCSS span {
+  position: absolute;
+  top: 320px;
+  font-size: 40px;
+}
+.maindivjs span {
+  position: absolute;
+  top: 320px;
+  font-size: 40px;
+}
+.maindivpy span {
+  position: absolute;
+  top: 320px;
+  font-size: 40px;
+}
+
+/* This section is for container6  */
+.container6 {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #dfe3ee;
+}
+.primary form h4 {
+  color: #0f4c81;
+  margin: 10px;
+  font-size: 25px;
+  font-family: "Lexend", sans-serif;
+}
+.primary form input {
+  width: 100%;
+  padding: 5px;
+  color: #0f4c81;
+  margin-bottom: 10px;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  border-bottom: 2px solid #0f4c81;
+  outline: none;
+}
+.primary {
+  background-color: #dfe3ee;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+  height: 80%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px 0 0 20px;
+}
+.primary form button {
+  padding: 15px;
+  border: none;
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  background-color: #dfe3ee;
+  font-size: 23px;
+  color: #0f4c81;
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+  font-weight: bold;
+  font-family: "Lexend", sans-serif;
+  box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
+    -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
+}
+
+.primary form button:hover {
+  box-shadow: inset 4px 4px 6px -1px rgba(0, 0, 0, 0.2),
+    inset -4px -4px 6px -1px rgba(255, 255, 255, 0.7),
+    -0.5px -0.5px 0px rgba(255, 255, 255, 1),
+    0.5px 0.5px 0px rgba(0, 0, 0, 0.15), 0px 12px 10px -10px rgba(0, 0, 0, 0.05);
+  transition: 0.5s ease;
+}
+.secondary {
+  background-color: #0f4c81;
+  height: 80%;
+  width: 40%;
+  border-radius: 0 20px 20px 0;
+}
+.secondary h1 {
+  padding: 30px;
+  font-family: "Lexend", sans-serif;
+}
+.secondary h4 {
+  color: white;
+  text-align: left;
+  font-size: 19px;
+  padding: 15px;
+  font-family: "Poppins", sans-serif;
+}
+textarea {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  padding: 10px;
+  color: #0f4c81;
+  background-color: transparent;
+  border: 2px solid #0f4c81;
+}
+
+/* This section is for container7 */
+.container7 {
+  width: 100%;
+  height: 150px;
+  background-color: #0f4c81;
+  overflow: hidden;
+  border-radius: 20px 20px 0 0;
+}
+.container7 p {
+  text-align: center;
+  margin-top: 70px;
+  font-size: 20px;
+}
+.fa-bars {
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  float: right;
+  padding: 20px 30px 0 0;
+  visibility: hidden;
+}
+.hideCheckbox {
+  visibility: hidden;
+}
+@media (max-width: 1440px) {
+  .primary form input {
+    position: relative;
+    top: 11%;
+    left: 7%;
+    width: 85%;
+    padding: 5px;
+    color: #0f4c81;
+    font-size: 20px;
+  }
+  .primary form {
+    position: relative;
+    background-color: transparent;
+    height: 650px;
+    width: 100%;
+  }
+  .primary form h4 {
+    font-size: 20px;
+    position: relative;
+    left: 5%;
+    top: 70px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 60%;
+    height: 100px;
+    font-size: 20px;
+  }
+  .primary form button {
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .container {
+    height: 700px;
+  }
+  .container4 {
+    height: 700px;
+  }
+  .container5 {
+    height: 700px;
+  }
+  .container6 {
+    height: 700px;
+  }
+}
+@media (max-width: 1280px) {
+  .fa-bars {
+    visibility: visible;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    top: 10px;
+    left: 90%;
+    font-size: 40px;
+  }
+  #clickMenu:checked ~ ul {
+    left: 30%;
+    transition: 0.5s ease;
+  }
+  #clickMenu:checked ~ .menubtn i:before {
+    content: "\f00d";
+  }
+  nav {
+    background-color: #1a191a;
+    position: fixed;
+    box-shadow: 0;
+    display: block;
+    height: 90px;
+  }
+  nav ul {
+    display: inline;
+    list-style: none;
+    background: #1a191a;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+    left: 100%;
+    top: 70px;
+    height: 600px;
+    width: 70%;
+    z-index: 2;
+    transition: 0.5s ease;
+  }
+  nav ul li {
+    margin: 40px 0 0 100px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    right: 60px;
+    font-size: 30px;
+  }
+  nav h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 45px;
+    font-family: "Caveat", cursive;
+    transition: 0.6s ease;
+  }
+  .container {
+    height: 650px;
+  }
+  .container4 {
+    height: 700px;
+  }
+  .container5 {
+    height: 600px;
+  }
+  .container6 {
+    height: 800px;
+  }
+  .container h1 {
+    width: 50%;
+    left: 5%;
+    font-size: 38px;
+    font-family: "Lexend", sans-serif;
+  }
+
+  .container h2 {
+    width: 50%;
+    left: 5%;
+    font-size: 30px;
+  }
+  .btn-976 {
+    left: 250px;
+  }
+
+  .primary form input {
+    position: relative;
+    top: 10%;
+    left: 7%;
+    width: 85%;
+    padding: 5px;
+    color: #0f4c81;
+    font-size: 23px;
+  }
+  .primary form {
+    position: relative;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .primary form h4 {
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    top: 65px;
+    margin-bottom: 10px;
+    width: 90%;
+  }
+  textarea {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 65%;
+    height: 100px;
+    font-size: 20px;
+  }
+  .primary form button {
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    top: 82%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .container2 {
+    border-radius: 20px;
+  }
+  .container2 p {
+    text-align: center;
+    left: 50%;
+
+    transform: translate(-50%);
+  }
+  .container2 img {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .fa-bars {
+    visibility: visible;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    top: 10px;
+    left: 90%;
+    font-size: 40px;
+  }
+  #clickMenu:checked ~ ul {
+    left: 30%;
+    transition: 0.5s ease;
+  }
+  #clickMenu:checked ~ .menubtn i:before {
+    content: "\f00d";
+  }
+  nav {
+    background-color: #1a191a;
+    position: fixed;
+    box-shadow: 0;
+    display: block;
+    height: 100px;
+  }
+  nav ul {
+    display: inline;
+    list-style: none;
+    background: #1a191a;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+    left: 100%;
+    top: 70px;
+    height: 600px;
+    width: 70%;
+    z-index: 2;
+    transition: 0.5s ease;
+  }
+  nav ul li {
+    margin: 40px 0 0 100px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    right: 60px;
+    font-size: 30px;
+  }
+  nav h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 45px;
+    font-family: "Caveat", cursive;
+    transition: 0.6s ease;
+  }
+  .container h1 {
+    width: 70%;
+    left: -5%;
+    font-size: 38px;
+    font-family: "Lexend", sans-serif;
+  }
+
+  .container h2 {
+    width: 70%;
+    left: -5%;
+    font-size: 30px;
+  }
+  .btn-976 {
+    left: 170px;
+  }
+  /* Container3 section  */
+  .item3 img {
+    display: none;
+  }
+  .container3 {
+    height: 1000px;
+  }
+  .cards {
+    width: 100%;
+    position: relative;
+    top: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1 {
+    width: 90%;
+    height: 250px;
+  }
+  .card1 img {
+    height: 45px;
+    top: 5%;
+    left: 10px;
+  }
+  .card1 p {
+    top: 10%;
+    color: #171515;
+    font-weight: bold;
+    height: 35%;
+    width: 97%;
+  }
+  .card1 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+    left: 10%;
+  }
+  .card1 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card2 {
+    top: 50%;
+    width: 90%;
+    height: 250px;
+  }
+  .card2 img {
+    height: 55px;
+    top: 5%;
+    left: 10px;
+  }
+  .card2 p {
+    text-align: left;
+    top: 30%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    height: 35%;
+    width: 97%;
+  }
+  .card2 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+    left: 10%;
+  }
+  .card2 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card3 {
+    width: 90%;
+    height: 250px;
+  }
+  .card3 img {
+    height: 45px;
+    top: 5%;
+    left: 10px;
+  }
+  .card3 p {
+    text-align: left;
+    top: 10%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    height: 35%;
+    width: 97%;
+  }
+  .card3 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+    left: 10%;
+  }
+  .card3 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  /* This is for container6  */
+  .container6 {
+    width: 100%;
+    height: 1000px;
+    flex-direction: column;
+  }
+  .primary {
+    position: relative;
+    top: 200px;
+    width: 85%;
+    height: 600px;
+    border-radius: 0 0 20px 20px;
+  }
+  .primary form input {
+    position: relative;
+    top: 5%;
+    left: 7%;
+    width: 85%;
+    padding: 5px;
+    color: #0f4c81;
+    font-size: 23px;
+  }
+  .primary form {
+    position: relative;
+
+    height: 100%;
+    width: 100%;
+  }
+  .primary form h4 {
+    font-size: 25px;
+    position: relative;
+    left: 6%;
+    top: 20px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 63%;
+    height: 100px;
+    font-size: 20px;
+  }
+  .primary form button {
+    width: 80%;
+    height: 70px;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%);
+  }
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .item3 h1 {
+    top: 15%;
+    font-size: 45px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+  .item3 p {
+    text-align: center;
+    width: 95%;
+    height: 400px;
+    padding: px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container4 {
+    width: 100%;
+    height: 800px;
+  }
+  .container4 h1 {
+    top: 40px;
+  }
+  .info {
+    flex-direction: row;
+    position: relative;
+    left: -13px;
+    top: 60px;
+  }
+  .personal-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+  legend {
+    font-size: 20px;
+  }
+  .Document-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+
+  .secondary {
+    height: 200px;
+    width: 85%;
+    position: relative;
+    bottom: 60%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+  }
+  .secondary h1 {
+    position: relative;
+    font-size: 30px;
+    left: 2%;
+    top: 10px;
+    width: 90%;
+    height: 10px;
+  }
+  .secondary h4 {
+    position: relative;
+    width: 90%;
+    top: 30px;
+    left: 6%;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+}
+@media (max-width: 800px) {
+  .fa-bars {
+    visibility: visible;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    top: 10px;
+    left: 90%;
+    font-size: 40px;
+  }
+  #clickMenu:checked ~ ul {
+    left: 30%;
+    transition: 0.5s ease;
+  }
+  #clickMenu:checked ~ .menubtn i:before {
+    content: "\f00d";
+  }
+  nav {
+    background-color: #1a191a;
+    position: fixed;
+    box-shadow: 0;
+    display: block;
+    height: 100px;
+  }
+  nav ul {
+    display: inline;
+    list-style: none;
+    background: #1a191a;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+    left: 100%;
+    top: 70px;
+    height: 600px;
+    width: 70%;
+    z-index: 2;
+    transition: 0.5s ease;
+  }
+  nav ul li {
+    margin: 40px 0 0 100px;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    right: 60px;
+    font-size: 30px;
+  }
+  nav h1 {
+    position: absolute;
+    top: 20px;
+    font-size: 45px;
+    font-family: "Caveat", cursive;
+    transition: 0.6s ease;
+  }
+  /* This is for container  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 100%;
+  }
+  .container .card {
+    position: relative;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container h1 {
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-bottom: 5px;
+    font-size: 30px;
+  }
+
+  .container h2 {
+    top: 6%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+  }
+  .btn-976 {
+    top: 65%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-976 button {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .btn-976 button:hover {
+    width: 160px;
+    height: 50px;
+  }
+
+  /* This is for container2  */
+  .container2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+  }
+  .container2 img {
+    display: none;
+  }
+  .item3 h1 {
+    top: 15%;
+    font-size: 40px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+  .item3 p {
+    text-align: center;
+    width: 700px;
+    height: 400px;
+    padding: px;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  /* This is for container3  */
+  .container3 {
+    height: 1000px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1 {
+    width: 90%;
+    height: 250px;
+  }
+  .card1 img {
+    height: 45px;
+    top: 10%;
+    left: 10px;
+  }
+  .card1 p {
+    top: 15%;
+    color: #171515;
+    font-weight: bold;
+    width: 97%;
+  }
+  .card1 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card1 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card2 {
+    top: 50%;
+    width: 90%;
+    height: 250px;
+  }
+  .card2 img {
+    height: 55px;
+    top: 5%;
+    left: 10px;
+  }
+  .card2 p {
+    text-align: left;
+    top: 30%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    width: 97%;
+  }
+  .card2 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card2 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card3 {
+    width: 90%;
+    height: 250px;
+  }
+  .card3 img {
+    height: 45px;
+    top: 10%;
+    left: 20px;
+  }
+  .card3 p {
+    text-align: left;
+    top: 10%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    width: 97%;
+  }
+  .card3 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card3 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+
+  /* This is for congtainer4 */
+  .container4 {
+    width: 100%;
+    height: 800px;
+    background-image: none;
+    background-color: #dfe3ee;
+  }
+  .container4 h1 {
+    top: 40px;
+  }
+  .info {
+    flex-direction: row;
+    position: relative;
+    left: -13px;
+    top: 60px;
+  }
+  .personal-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+  legend {
+    font-size: 20px;
+  }
+  .Document-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+
+  /* This is for container5  */
+  .container5 {
+    height: 2000px;
+    width: 100%;
+  }
+  .container5 h1 {
+    font-size: 50px;
+  }
+  .flex-display {
+    flex-direction: column;
+  }
+  .maindiv {
+    width: 80%;
+  }
+  .maindivCSS {
+    width: 80%;
+  }
+  .maindivjs {
+    width: 80%;
+  }
+  .maindivpy {
+    width: 80%;
+  }
+
+  /* This is for container6  */
+  .container6 {
+    width: 100%;
+    height: 1000px;
+    flex-direction: column;
+  }
+  .primary {
+    position: relative;
+    top: 200px;
+    width: 85%;
+    height: 600px;
+    border-radius: 0 0 20px 20px;
+  }
+  .primary form input {
+    position: relative;
+    top: 3%;
+    left: 7%;
+    width: 85%;
+    padding: 5px;
+    color: #0f4c81;
+    font-size: 23px;
+  }
+  .primary form {
+    position: relative;
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+  }
+  .primary form h4 {
+    font-size: 25px;
+    position: relative;
+    left: 5%;
+    top: 20px;
+    margin-bottom: 10px;
+  }
+  textarea {
+    width: 85%;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: 63%;
+    height: 100px;
+    font-size: 20px;
+  }
+  .primary form button {
+    width: 80%;
+    height: 70px;
+    position: absolute;
+    top: 81%;
+    left: 50%;
+    transform: translate(-50%);
+    /* font-size: 22px; */
+  }
+  .secondary {
+    height: 200px;
+    width: 85%;
+    position: relative;
+    bottom: 60%;
+    border-radius: 20px 20px 0 0;
+    overflow: hidden;
+  }
+  .secondary h1 {
+    position: relative;
+    font-size: 30px;
+    top: 5px;
+    left: 2%;
+    width: 90%;
+  }
+  .secondary h4 {
+    position: relative;
+    width: 80%;
+    left: 7%;
+    font-weight: 500;
+    color: white;
+    text-align: left;
+    font-size: 17px;
+    padding: 0px;
+    font-family: "Poppins", sans-serif;
+  }
+}
+
+@media (max-width: 768px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+  }
+  .fa-bars {
+    visibility: visible;
+    -webkit-tap-highlight-color: transparent;
+    position: fixed;
+    top: 5px;
+    left: 90%;
+    font-size: 30px;
+  }
+  #clickMenu:checked ~ ul {
+    left: 30%;
+    transition: 0.5s ease;
+  }
+  #clickMenu:checked ~ .menubtn i:before {
+    content: "\f00d";
+  }
+  body {
+    background-color: #dfe3ee;
+  }
+  section,
+  footer {
+    overflow: hidden;
+    white-space: wrap;
+    word-break: break-word;
+  }
+  nav {
+    background-color: #1a191a;
+    position: fixed;
+    box-shadow: 0;
+    display: block;
+    height: 80px;
+  }
+  nav ul {
+    display: inline;
+    list-style: none;
+    background: #1a191a;
+    position: fixed;
+    border-radius: 20px 0 0 20px;
+    left: 100%;
+    top: 70px;
+    height: 530px;
+    width: 70%;
+    z-index: 2;
+    transition: 0.5s ease;
+  }
+  nav ul li {
+    margin: 40px 0 0 100px;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+    right: 60px;
+  }
+  nav h1 {
+    position: absolute;
+    top: 15px;
+    font-size: 40px;
+    font-family: "Caveat", cursive;
+    transition: 0.6s ease;
+  }
+
+  /* This is for container  */
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 750px;
+    width: 100%;
+  }
+  .container .card {
+    position: relative;
+    top: 23%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .container h1 {
+    top: 5%;
+    width: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
+  .container h2 {
+    top: 6%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    font-size: 23px;
+  }
+  .btn-976 {
+    top: 65%;
+    left: 46%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-976 button {
+    width: 160px;
+    height: 50px;
+    font-size: 20px;
+  }
+  .btn-976 button:hover {
+    width: 160px;
+    height: 50px;
+  }
+
+  /* This is for container3  */
+  .container3 {
+    height: 1000px;
+  }
+  .cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .card1 {
+    width: 90%;
+    height: 250px;
+  }
+  .card1 img {
+    height: 45px;
+    top: 10%;
+    left: 20px;
+  }
+  .card1 p {
+    top: 10%;
+    color: #171515;
+    font-weight: bold;
+    height: 35%;
+    width: 96%;
+  }
+  .card1 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card1 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card2 {
+    top: 50%;
+    width: 90%;
+    height: 250px;
+  }
+  .card2 img {
+    height: 55px;
+    top: 5%;
+    left: 10px;
+  }
+  .card2 p {
+    text-align: left;
+    top: 25%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    padding-bottom: 100px;
+    overflow: hidden;
+    height: 15%;
+    height: 35%;
+    width: 96%;
+  }
+  .card2 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card2 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+  .card3 {
+    width: 90%;
+    height: 250px;
+  }
+  .card3 img {
+    height: 45px;
+    top: 10%;
+    left: 20px;
+  }
+  .card3 p {
+    text-align: left;
+    top: 10%;
+    left: 10px;
+    color: #171515;
+    font-weight: bold;
+    height: 35%;
+    width: 96%;
+  }
+  .card3 button {
+    height: 45px;
+    width: 80%;
+    top: 70%;
+  }
+  .card3 button:hover {
+    height: 45px;
+    width: 80%;
+  }
+
+  /* This is for congtainer4 */
+  .container4 {
+    width: 100%;
+    height: 1300px;
+    background-image: none;
+    background-color: #dfe3ee;
+  }
+  .container4 h1 {
+    top: 40px;
+  }
+  .info {
+    flex-direction: column;
+    position: relative;
+    left: -13px;
+    top: 60px;
+  }
+  .personal-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+  legend {
+    font-size: 20px;
+  }
+  .Document-info fieldset {
+    width: 97%;
+    height: 50%;
+  }
+}
+@media (max-width: 480px) {
+  .container h1 {
+    font-size: 30px;
+    width: 100%;
+  }
+  .container2 .item3 p {
+    padding: 30px;
+  }
+  .container h2 {
+    font-size: 25px;
+    width: 100%;
+  }
+  .item3 h1 {
+    top: -10%;
+    font-size: 40px;
+    left: 48%;
+    transform: translate(-50%, -50%);
+  }
+  .item3 p {
+    text-align: center;
+    width: 450px;
+    height: 300px;
+    padding: 25px;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: "Lexend", sans-serif;
+  }
+  .primary form input {
+    font-size: 18px;
+  }
+  .primary form textarea {
+    top: 61%;
+  }
+  .primary form button {
+    top: 80%;
+  }
+  .secondary h4 {
+    left: 40px;
+    width: 350px;
+    height: 15%;
+    font-size: 15px;
+  }
+  .fa-bars {
+    left: 87%;
+  }
+  .container2 {
+    height: 600px;
+  }
+  .card1 p {
+    width: 95%;
+    font-size: 16px;
+    height: 40%;
+  }
+  .card1 button {
+    top: 75%;
+  }
+  .card2 p {
+    width: 95%;
+    font-size: 16px;
+    height: 40%;
+  }
+  .card2 button {
+    top: 75%;
+  }
+  .card3 p {
+    width: 95%;
+    font-size: 16px;
+    height: 40%;
+  }
+  .card3 button {
+    top: 75%;
+  }
+}
+@media (max-width: 360px) {
+  .container h1 {
+    font-size: 23px;
+    width: 100%;
+  }
+  .container h2 {
+    font-size: 20px;
+    width: 100%;
+  }
+  .btn-976 {
+    left: 160px;
+    position: relative;
+    left: 56%;
+    top: 65%;
+    transform: translate(-50%, -50%);
+  }
+  .btn-976 button {
+    width: 120px;
+  }
+  .container2 p {
+    width: 95%;
+    font-size: 21px;
+  }
+  .container3 {
+    height: 1200px;
+  }
+  .cards .card1 {
+    height: 330px;
+  }
+  .cards .card1 button {
+    top: 70%;
+  }
+  .cards .card1 p {
+    top: 15%;
+    height: 35%;
+  }
+  .cards .card2 {
+    height: 330px;
+  }
+  .card2 p {
+    width: 96%;
+    height: 190px;
+    height: 40%;
+  }
+  .cards .card2 button {
+    top: 70%;
+  }
+  .cards .card3 p {
+    top: 15%;
+    height: 35%;
+  }
+  .cards .card3 {
+    height: 330px;
+  }
+  .cards .card3 button {
+    top: 70%;
+  }
+  .container6 {
+    height: 780px;
+  }
+  .primary {
+    top: 100px;
+    height: 470px;
+  }
+  .primary form h4 {
+    font-size: 18px;
+    top: 10px;
+  }
+  .primary form input {
+    font-size: 15px;
+    top: 10px;
+  }
+  .primary form textarea {
+    height: 80px;
+    top: 64%;
+    font-size: 15px;
+  }
+  .primary form button {
+    top: 80%;
+    height: 50px;
+  }
+  .secondary {
+    height: 100px;
+  }
+  .secondary h1 {
+    font-size: 25px;
+    text-align: center;
+  }
+  .secondary h4 {
+    display: none;
+  }
+}
+
+/* THE END  */

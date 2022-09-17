@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/c7b5815651.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Portfolio-Shiridhar Khatri</title>
+  </head>
+  <body>
+    <!-- This is for Navigation bar -->
+    <nav id="navbar">
+      <input type="checkbox" id="clickMenu" class="hideCheckbox">
+     <label for="clickMenu" class="menubtn">
+        <i class="fa-solid fa-bars"></i>
+     </label>
+      <h1>
+        <a href="#" style="color: white">Port<span>folio</span></a>
+      </h1>
+      <ul id="menu">
+        <li><a class="home-page" onclick="scrollEffect()" href="#home">Home</a></li>
+        <li><a class="about-page" onclick="scrollEffect()" href="#about">About</a></li>
+        <li><a class="social-page" onclick="scrollEffect()" href="#Social">Social</a></li>
+        <li><a class="profile-page" onclick="scrollEffect()" href="#profile">Profile</a></li>
+        <li><a class="skill-page" onclick="scrollEffect()" href="#skill">Skills</a></li>
+        <li><a class="contact-page" onclick="scrollEffect()" href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- end  -->
+      
+    <!-- This section is for container  -->
+    <section class="container">
+      <h1>I'M SHIRIDHAR KHATRI</h1>
+      <h2>
+        i am a web developer and a<br />
+        programmer.
+      </h2>
+
+      <div class="btn-976">
+        <form action="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSDbtqfWMMGNnmllgcCKJPFlGnQCnQmbqHwVmgkjXdBQJrCwgfGkDMljtrwcfxHZbtxXlnnK">
+          <button type="submit" onclick="soundEffect()">Email</button>
+        </form>
+        <form action="https://www.upwork.com/freelancers/~01241e90d934b26b94">
+          <button type="submit" onclick="soundEffect()" >Hire me!</button>
+        </form>
+      </div>
+   
+
+      <div class="card" data-tilt>
+        <img src="Mypic.png" />
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- This section is for container2 -->
+    <section class="container2" data-aos="fade-in">
+      <div class="item3">
+        <h1>Introduction</h1>
+        <p>
+          Myself Shiridhar Khatri. i'm from Nepal i am currently
+          living in the 2nd largest and also most beautiful city Pokhara. As a
+          profession i'm a student. Studying in a highschool 3rd year as a computer science student. I
+          spend my days learning e-language and new ideas. I like to do coding, i am focusing more on HTML,
+          CSS, javaScript, Python, php and so on.
+        </p>
+        <img src="robot.png" />
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- This section is for container3  -->
+    <section class="container3" >
+      <div class="cards">
+        <div class="card1" data-tilt data-aos="fade-left">
+          <img src="facebook.png" height="60px" />
+          <p>
+            Contact me through my facebook account. click the button below to
+            interact me on my facebook profile page.
+          </p>
+          <form action="https://www.facebook.com/kaneki.touka.976" class="btn2">
+            <button onclick="soundEffect()">Facebook</button>
+          </form>
+        </div>
+        <div class="card2" data-tilt data-aos="fade-in">
+          <img src="github.png" height="80px" />
+          <p>
+            GitHub is a web-based version-control and collaboration platform for
+            software developers. You can also follow me in the github to see my all projects
+            and future projects.
+          </p>
+          <form action="https://github.com/shiridharKhatri" class="btn2">
+            <button onclick="soundEffect()">GitHub</button>
+          </form>
+        </div>
+        <div class="card3" data-tilt data-aos="fade-right">
+          <img src="instagram.png" height="50px" />
+          <p>
+            Click the button below to
+            interact me on my Instagram page. make sure to follow me for tips.
+          </p>
+          <form action="https://www.instagram.com/ken.kaneki976/" class="btn3">
+            <button onclick="soundEffect()">Instagram</button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- This section is for container4  -->
+    <section class="container4">
+      <h1>My Profile</h1>
+      <div class="info">
+        <div class="personal-info" data-aos="fade-left">
+          <fieldset data-tilt>
+            <legend>Personal Information</legend>
+            <h2>Name : Shiridhar Khatri</h2>
+            <h2>Birth Place : Nepal</h2>
+            <h2>Date of Birth : 2003/08/08</h2>
+            <h2>Gender : Male</h2>
+            <h2>Marital status : Unmarried</h2>
+            <h2>Address : Tutunga, Pokhara-15, Nepal</h2>
+          </fieldset>
+        </div>
+        <div class="Document-info" data-aos="fade-right">
+          <fieldset data-tilt>
+            <legend>Document info</legend>
+            <h2>Document Type : Citizenship</h2>
+            <h2>Document Number : 51-02-78-01074</h2>
+            <h2>Document Issued Date : 2078/09/12</h2>
+            <h2>Document Issued Place : Parbat</h2>
+            <h2>PAN Number : 129925882</h2>
+            <!-- <h2>Phone Number : 9820610923</h2> -->
+            <h2>Gmail : khatrishiridhar@gmail.com</h2>
+          </fieldset>
+        </div>
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- This section is for container5 -->
+    <section class="container5" >
+      <h1>Skills That I Have</h1>
+      <div class="flex-display">
+        <!-- For HTML -->
+        <div class="maindiv" data-aos="fade-right">
+          <div class="outer">
+            <div class="inner"><p id="number">80%</p></div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle cx="80" cy="80" r="70" stroke-linecap="round" />
+          </svg>
+          <span>HTML</span>
+        </div>
+      
+
+        <!-- For CSS -->
+        <div class="maindivCSS" data-aos="fade-left">
+          <div class="outerCSS">
+            <div class="innerCSS"><p id="numberCSS">76%</p></div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle class="CSS" cx="80" cy="80" r="70" stroke-linecap="round" />
+          </svg>
+          <span>CSS</span>
+        </div>
+        <!-- For Javascript -->
+        <div class="maindivjs" data-aos="fade-right">
+          <div class="outerjs">
+            <div class="innerjs"><p id="numberjs">65%</p></div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle
+              class="javaScript"
+              cx="80"
+              cy="80"
+              r="70"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>JavaScript</span>
+        </div>
+
+        <!-- For python -->
+        <div class="maindivpy" data-aos="fade-left">
+          <div class="outerpy">
+            <div class="innerpy"><p id="numberpy">20%</p></div>
+          </div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            version="1.1"
+            width="160px"
+            height="160px"
+          >
+            <defs>
+              <linearGradient id="GradientColor">
+                <stop offset="0%" stop-color="#e91e63" />
+                <stop offset="100%" stop-color="#673ab7" />
+              </linearGradient>
+            </defs>
+            <circle
+              class="pythonpy"
+              cx="80"
+              cy="80"
+              r="70"
+              stroke-linecap="round"
+            />
+          </svg>
+          <span>Python</span>
+        </div>
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- This section is for container6 -->
+    <section class="container6" data-aos="fade-right">
+      <div class="primary">
+        <form onsubmit="sendMessage(); reset(); return false;">
+          <h4 class="name">Name</h4>
+          <input
+            type="text"
+            id="name"
+            placeholder="Enter your full name"
+            required
+          />
+          <h4 class="phnumber">Phone number</h4>
+          <input
+            type="number"
+            id="phnumber"
+            placeholder="Enter your Phone number"
+            required
+          />
+          <h4 class="email">Email</h4>
+          <input
+            type="email"
+            id="email"
+            placeholder="Enter your email"
+            required
+          />
+          <h4 class="message">Message</h4>
+          <textarea
+            name=""
+            id="message-area"
+            cols="55"
+            rows="4"
+            placeholder="Type your message here"
+          ></textarea
+          ><br />
+          <button type="submit" onclick="messageSent()"><h5 style="color:#0f4c81; font-size: 22px;" id="submitted">Submit</h5></button>
+        </form>
+      </div>
+      <div class="secondary">
+        <h1>Reach Me</h1>
+        <h4>Email&nbsp; &nbsp; khatrishiridhar@gmail.com</h4>
+        <h4>Phone &nbsp; &nbsp; +9779820610923</h4>
+        <h4>Address&nbsp; &nbsp; Pokhara-15, Nepal-33700</h4>
+      </div>
+    </section>
+    <!-- end  -->
+
+    <!-- footer section   -->
+    <footer>
+      <div class="container7">
+        <p>&copy; 2022 shiridharKhatri</p>
+      </div>
+    </footer>
+    <!-- end  -->
+
+    <script>
+   function soundEffect(){
+    const click = new Audio("click.mp3");
+    click.play();
+   }
+
+
+      function messageSent(){
+        const sendAudio = new Audio("message.mp3");
+      document.getElementById('submitted').innerHTML="Sended";
+      sendAudio.play();
+      }
+      function scrollEffect(){
+        const scroll = new Audio("scroll.mp3");
+        scroll.play();
+      }
+      //for HTMl
+      let numberHtml = document.getElementById("number");
+      let counterhtml = 0;
+      setInterval(() => {
+        if (counterhtml === 80) {
+          clearInterval();
+        } else {
+          counterhtml += 1;
+          numberHtml.innerHTML = counterhtml + "%";
+        }
+      }, 20);
+      //for CSS
+      let numberCss = document.getElementById("numberCSS");
+      let countercss = 0;
+      setInterval(() => {
+        if (countercss === 76) {
+          clearInterval();
+        } else {
+          countercss += 1;
+          numberCss.innerHTML = countercss + "%";
+        }
+      }, 20);
+
+      //for javaScript
+      let numberjs = document.getElementById("numberjs");
+      let counterjs = 0;
+      setInterval(() => {
+        if (counterjs === 65) {
+          clearInterval();
+        } else {
+          counterjs += 1;
+          numberjs.innerHTML = counterjs + "%";
+        }
+      }, 20);
+
+      //for python
+      let numberpy = document.getElementById("numberpy");
+      let counterpy = 0;
+      setInterval(() => {
+        if (counterpy === 20) {
+          clearInterval();
+        } else {
+          counterpy += 1;
+          numberpy.innerHTML = counterpy + "%";
+        }
+      }, 90);
+
+      //for smooth scrollin
+      //Home section
+      const homeSection=document.querySelector(".container");
+      document.querySelector(".home-page").addEventListener('click', () => {
+        homeSection.scrollIntoView({behavior:"smooth"});
+      });
+
+      //About section
+      const aboutSection = document.querySelector(".container2");
+      document.querySelector(".about-page").addEventListener("click", () => {
+        aboutSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      //Social links section
+      const socialLinkSection = document.querySelector(".container3");
+      document.querySelector(".social-page").addEventListener("click", () => {
+        socialLinkSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      //Profile section
+      const profileSection = document.querySelector(".container4");
+      document.querySelector(".profile-page").addEventListener("click", () => {
+        profileSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      //Skill section
+      const skillSection = document.querySelector(".container5");
+      document.querySelector(".skill-page").addEventListener("click", () => {
+        skillSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      //Contact section
+      const contactSection = document.querySelector(".container6");
+      document.querySelector(".contact-page").addEventListener("click", () => {
+        contactSection.scrollIntoView({ behavior: "smooth" });
+      });
+
+      // //for nevbar
+      // var navbar = document.getElementById('navbar');
+      // var menu = document.getElementById('menu');
+
+      // window.onscroll = function(){
+      //   if (window.pageYOffset >= menu.offsetTop){
+      //     navbar.classList.add("sticky");
+      //   }
+      //   else{
+      //     navbar.classList.remove("sticky");
+      //   }
+      // }
+    </script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+      function sendMessage() {
+        Email.send({
+          SecureToken: "c76f96ba-3cf6-4949-887e-d8e79e7f1fb3",
+          To: document.getElementById("email").value,
+          From: "khatrishiridhar@gmail.com",
+          Subject: "New contact form",
+          Body:
+            "Name: " +
+            document.getElementById("name").value +
+            "<br>Phone number: " +
+            document.getElementById("phnumber").value +
+            "<br>Email: " +
+            document.getElementById("email").value +
+            "<br>Message: " +
+            document.getElementById("message-area").value,
+        }).then((message) => alert(" Message sent successfully"));
+      }
+
+    </script>
+    <script
+      src="https://kit.fontawesome.com/c7b5815651.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        offset: 150,
+      });
+    </script>
+    </script>
+  </body>
+  <!-- <script src="vanilla-tilt.js"></script> -->
+</html>
